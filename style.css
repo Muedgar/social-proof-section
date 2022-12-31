@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+}
+
+.social-proof {
+    width: 80%;
+    height: 550px;
+    margin: 50px auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 20px rgba(153, 153, 153, 0.163);
+    position: relative;
+}
+
+
+.pattern-top {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.pattern-bottom {
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.social-proof-title {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+}
+
+.social-proof-title h1 {
+    font-family: 'League Spartan';
+    font-size: 4em;
+    color: hsl(300, 43%, 22%);
+    width: 300px;
+    height: fit-content;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.social-proof-title p {
+    font-family: 'League Spartan';
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    width: 350px;
+    height: fit-content;
+    word-wrap: break-word;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.social-proof-rates {
+    position: absolute;
+    top: 80px;
+    right: 90px;
+}
+
+.social-proof-rate {
+    width: 320px;
+    height: 35px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(248, 241, 248);
+    border-radius: 10px;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.social-proof-rate:nth-child(1) {
+    margin-left: -50px;
+}
+.social-proof-rate:nth-child(2) {
+    margin-left: -25px;
+}
+
+.social-proof-rate img {
+    width: 15px;
+    height: 15px;
+    margin: 8px 3px 0px 3px;
+}
+
+.social-proof-rate p {
+    font-family: 'League Spartan';
+    font-size: 14px;
+    color: hsl(300, 43%, 22%);
+    height: fit-content;
+    word-wrap: break-word;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.social-proof-messages {
+    width: 84%;
+    height: fit-content;
+    position: absolute;
+    bottom: 10px;
+    left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-proof-message {
+    width: 300px;
+    height: fit-content;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    position: relative;
+}
+
+.social-proof-message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.social-proof-message div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    justify-content: left;
+}
+
+.social-proof-message div span {
+    font-family: 'League Spartan';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.social-proof-message div span:nth-child(1) {
+    color: white;
+}
+.social-proof-message div span:nth-child(2) {
+    color: hsla(333, 80%, 67%, 0.734);
+}
+
+.social-proof-message p {
+    margin: 80px 0 25px 25px;
+    width: 80%;
+    align-self: center;
+    font-size: 15px;
+    color: hsl(300, 24%, 96%);
+    font-family: 'League Spartan';
+    font-weight: 700;
+}
+
+.social-proof-message:nth-child(1) {
+    margin: -30px 10px 10px 10px;
+}
+
+.social-proof-message:nth-child(2) {
+    margin: -15px 10px 10px 10px;
+}
+
+.social-proof-message:nth-child(3) {
+    margin: 0px 10px 10px 10px;
+}
+
+@media (max-width: 375px) {
+    .social-proof {
+        height: fit-content;
+    }
+    .social-proof-title {
+        height: fit-content;
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 5px;
+    }
+    .social-proof-rates {
+        height: fit-content;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .social-proof-messages {
+        height: fit-content;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-proof-title h1 {
+        font-family: 'League Spartan';
+        font-size: 3em;
+        color: hsl(300, 43%, 22%);
+        width: 90%;
+        height: fit-content;
+        word-wrap: break-word;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .social-proof-title p {
+        font-family: 'League Spartan';
+        font-size: 15px;
+        color: hsl(303, 10%, 53%);
+        width: 90%;
+        height: fit-content;
+        word-wrap: break-word;
+        text-align: center;
+        margin: -30px auto;
+    }
+    .social-proof-rate:nth-child(1) {
+        margin-left: 10px;
+    }
+    .social-proof-rate:nth-child(2) {
+        margin-left: 10px;
+    }
+
+    .social-proof-rate {
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(248, 241, 248);
+        border-radius: 10px;
+        margin: 15px auto;
+    }
+    .social-proof-rate p {
+        font-family: 'League Spartan';
+        font-size: 14px;
+        color: hsl(300, 43%, 22%);
+        height: fit-content;
+        word-wrap: break-word;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-proof-message:nth-child(1) {
+        margin: 20px;
+    }
+    
+    .social-proof-message:nth-child(2) {
+        margin: 20px;
+    }
+    
+    .social-proof-message:nth-child(3) {
+        margin: 20px;
+    }
+    .social-proof-message {
+        width: 99%;
+    }
+}
